@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" 
+    rel="stylesheet">
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Viajes Chile</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-primary" data-bs-theme="dark">
+            <div class="container px-5">
+              <a class="navbar-brand py-2 my-auto" href="#"> <img src="assets/img/viajes.svg" class="mx-3 header__logo">Viajes Chile</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon me-auto"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mb-2 pe-5 me-5 mb-lg-0 ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#quienesSomos">Quienes somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#destacados">Destacados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <!--Carrusel-->
+        <section class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel1.jpg" class="d-block w-100 rounded-5" alt="paisaje1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel2.jpg" class="d-block w-100 rounded-5" alt="pasiaje2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel3.jpg" class="d-block w-100 rounded-5" alt="paisaje3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!--Quienes somos-->
+        <section id="quienesSomos">
+            <div class="container row mx-auto mb-5">
+                <h2 class="text-center pt-5 pb-3">¿Quiénes somos?</h2>
+                <hr>
+                <div class="col-lg-6 my-3 d-none d-lg-block">
+                    <img src="assets/img/quienes-somos.jpg" alt="" class="w-100 rounded-5">
+                </div>
+                <div class="col-lg-6 my-3">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam optio accusamus 
+                        incidunt eligendi voluptas unde neque! Commodi sit dolor nam voluptates perspiciatis 
+                        culpa consequuntur. Cum nostrum totam culpa unde eaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Veniam molestiae culpa blanditiis et placeat. A, totam et, ab nisi iste sit dolorem, eligendi culpa dignissimos eveniet 
+                        fugit vitae aliquam atque?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam optio accusamus 
+                        incidunt eligendi voluptas unde neque! Commodi sit dolor nam voluptates perspiciatis 
+                        culpa consequuntur. Cum nostrum totam culpa unde eaque!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minima ut autem beatae sit alias saepe possimus, 
+                        nobis illum tempora minus quidem provident accusamus eligendi a aspernatur error dolores commodi?</p>
+                </div>
+            </div>
+        </section>
+    <!-- Destacados-->
+        <section id="destacados">
+            <h2 class="text-center pt-5 pb-3">Destacados</h2>
+            <div class="container row mx-auto justify-content-evenly">
+                <hr>
+                <div class="card mb-3 p-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/card1.jpg" class="cards__img rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quaerat, voluptatem sint ipsam optio quisquam modi dignissimos 
+                                    nemo rerum quod.</p>
+                            </div>
+                            <div class="d-flex cards__price justify-content-between align-items-center p-3">
+                                <i class="fa-solid fa-plane-up"></i>
+                                <p class="m-0">Vuelos desde:</p>
+                                <div>
+                                    <h2>$159.990</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 p-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/card2.jpg" class="cards__img rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quaerat, voluptatem sint ipsam optio quisquam modi dignissimos 
+                                    nemo rerum quod.</p>
+                            </div>
+                            <div class="d-flex cards__price justify-content-between align-items-center p-3">
+                                <i class="fa-solid fa-plane-up"></i>
+                                <p class="m-0">Vuelos desde:</p>
+                                <div>
+                                    <h2>$189.990</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 p-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/card3.jpg" class="cards__img rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quaerat, voluptatem sint ipsam optio quisquam modi dignissimos 
+                                    nemo rerum quod.</p>
+                            </div>
+                            <div class="d-flex cards__price justify-content-between align-items-center p-3">
+                                <i class="fa-solid fa-plane-up"></i>
+                                <p class="m-0">Vuelos desde:</p>
+                                <div>
+                                    <h2>$289.990</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 p-0" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/img/card4.jpg" class="cards__img rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Quaerat, voluptatem sint ipsam optio quisquam modi dignissimos 
+                                    nemo rerum quod.</p>
+                            </div>
+                            <div class="d-flex cards__price justify-content-between align-items-center p-3">
+                                <i class="fa-solid fa-plane-up"></i>
+                                <p class="m-0">Vuelos desde:</p>
+                                <div>
+                                    <h2>$259.990</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+    <!--Testimonios-->    
+        <section class="container">
+            <h2 class="testimony__title">Testimonios</h2>
+            <hr>
+            <div class="testimony__div">
+                <div class="testimony__column">
+                    <p class="testimony__text--color testimony__text--cursive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore veritatis nostrum odio laborum illum 
+                        amet saepe provident. Sint repellendus voluptate magnam hic aliquam, ea architecto dolore. 
+                        Omnis minus labore dolores.</p>
+                    <img src="assets/img/testimonio1.jpg" alt="" class="testimony__img">
+                    <h3 class="testimony__text--color">Mariela</h3>
+                </div>
+                <div class="testimony__column">
+                    <p class="testimony__text--color testimony__text--cursive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore veritatis nostrum odio laborum illum 
+                        amet saepe provident. Sint repellendus voluptate magnam hic aliquam, ea architecto dolore. 
+                        Omnis minus labore dolores.</p>
+                    <img src="assets/img/testimonio2.jpg" alt="" class="testimony__img">
+                    <h3 class="testimony__text--color">Christian</h3>
+                </div>
+                <div class="testimony__column">
+                    <p class="testimony__text--color testimony__text--cursive">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore veritatis nostrum odio laborum illum 
+                        amet saepe provident. Sint repellendus voluptate magnam hic aliquam, ea architecto dolore. 
+                        Omnis minus labore dolores.</p>
+                    <img src="assets/img/testimonio3.jpg" alt="" class="testimony__img">
+                    <h3 class="testimony__text--color">Fernanda</h3>
+                </div>
+            </div>
+        </section>
+    <!--Contacto-->
+        <section id="contacto" class="container">
+            <h2 class="text-center pt-5 pb-3">Contacto</h2>
+            <hr>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <label class="form-label">Nombre</label>
+                                <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-title="Indica tu nombre"></i>
+                                <input class="form-control">
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label class="form-label">Email</label>
+                                <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-title="Escribe tu email"></i>
+                                <input class="form-control">
+                            </div>
+                        </div>
+                        <label class="form-label my-3">Mensaje</label>
+                        <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-title="Escribe tu mensaje"></i>
+                        <textarea class="form-control" rows="5"></textarea>
+                        <div class="d-flex align-items-center my-2">
+                            <input type="checkbox" class="form-checkbox">
+                            <p class="m-0 ms-2"> <u data-bs-toggle="modal" data-bs-target="#exampleModal">Acepto los términos y condiciones</u></p>
+                        </div>
+                        <button class="btn btn-light text-center mb-5 mt-3 col-12 col-lg-3" id="botonEnviar">Enviar</button>
+                    </form>
+                </div>
+                <div class="my-auto col-lg-6 col-12">
+                    <div class="d-flex">
+                        <i class="fa-solid fa-phone me-3"></i> <p>+56999887766</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-envelope me-3"></i> <p>contactos@viajeschile.com</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-brands fa-linkedin me-3"></i><p>ViajesChile</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa-brands fa-instagram me-3"></i> <p>viajes_chile</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title text-dark" id="exampleModalLabel">Términos y condiciones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-dark">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi modi a, neque ea recusandae minus ipsum totam, voluptate, 
+                        nesciunt exercitationem ducimus. Officiis nihil sit odio eum sed tempora provident. Fugit!
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus similique, tempora nulla aliquid, dolorum repellat nostrum 
+                        ipsa voluptatibus distinctio autem molestias itaque esse praesentium, delectus eveniet sint hic aspernatur veniam!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quaerat fuga voluptatum perferendis, iste accusamus, 
+                        explicabo sint fugiat numquam eius vel quia esse provident quas ad inventore sed quidem laboriosam.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aspernatur enim iste dolorum sint minus impedit natus rem dolores? Suscipit 
+                        adipisci libero repellat voluptatem, quasi mollitia hic sit illo error?
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Aceptar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

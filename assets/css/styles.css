@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(40, 40, 49);
+  color: white;
+  font-family: "Open sans", sans-serif;
+}
+
+hr {
+  color: white;
+  border: 2px solid;
+  opacity: 1;
+}
+
+a {
+  color: gray;
+}
+
+.header__logo {
+  width: 3em;
+}
+
+.cards__price {
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  background-color: rgb(245, 245, 245);
+}
+
+.testimony__title {
+  text-align: center;
+}
+
+.testimony__div {
+  display: flex;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .testimony__div {
+    display: block;
+    text-align: center;
+  }
+}
+.testimony__column {
+  margin: 2vw;
+}
+
+.testimony__text--color {
+  color: rgb(255, 247, 206);
+}
+.testimony__text--cursive {
+  font-style: italic;
+}
+
+.testimony__img {
+  width: 5em;
+  height: 5em;
+  border: 1px white solid;
+  border-radius: 100%;
+  margin: 2em 0em;
+}
+
+.cards__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */
